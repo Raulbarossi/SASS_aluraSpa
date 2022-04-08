@@ -1,4 +1,40 @@
 html, body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+.nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #c9720ffd;
+}
+
+.nav ul li a:hover {
+  border-bottom: 2px solid #ffd900d0;
+}
+
+.banner {
+  background: url(../../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0.65;
 }
 /*# sourceMappingURL=Style.css.map */
